@@ -11,4 +11,4 @@ jobs:
       - name: curl app
         run: |
           URL="https://board-game-haven-manager.lovable.app/"
-          curl -fsS "$URL$ || (echo "Ping failed" && exit 1)"
+          curl -fsS "$URL" || (echo "Ping failed" && exit 1)
